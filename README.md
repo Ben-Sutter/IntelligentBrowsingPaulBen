@@ -2,6 +2,6 @@
 
 Proposal.pdf is our proposal
 
-progrep.pdf is our progress report
-
-Work is all done on beta branch
+Sources:  
+https://developer.chrome.com/docs/extensions/mv3/overview/  
+https://betterprogramming.pub/the-ultimate-guide-to-building-a-chrome-extension-4c01834c63ec  
