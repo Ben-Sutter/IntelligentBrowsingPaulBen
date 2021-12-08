@@ -1,8 +1,6 @@
 # CourseProject
 
-Authors: Paul Kim and Ben Sutter
-
-netids: pkim62 and bsutter2
+Authors: Paul Kim (pkim62) and Ben Sutter (bsutter2)
 
 Proposal.pdf is our proposal
 
