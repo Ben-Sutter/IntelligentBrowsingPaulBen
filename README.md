@@ -1,5 +1,9 @@
 # CourseProject
 
+Authors: Paul Kim and Ben Sutter
+
+netids: pkim62 and bsutter2
+
 Proposal.pdf is our proposal
 
 progrep.pdf is our progress report
