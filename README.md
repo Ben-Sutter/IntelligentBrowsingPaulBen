@@ -1,8 +1,10 @@
 # CourseProject
 
 Proposal.pdf is our proposal
+
 progrep.pdf is our progress report
-FinalDocumentation.pdf is our documentation for part 7
+
+FinalDocumentation.pdf is our documentation for part 7 and includes a video link for part 8
 
 Sources:  
 https://developer.chrome.com/docs/extensions/mv3/overview/  
