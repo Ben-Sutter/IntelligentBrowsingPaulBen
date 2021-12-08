@@ -30,7 +30,7 @@ document.getElementById("searchButton").addEventListener("click", async () => {
         console.log("clicked");
         chrome.tabs.sendMessage(tabs[0].id, {action: "FIND_TEXT", find: searchText.value, results: resultsText.value});
         // window.close();
-        sleep(10000);
+        sleep(8000);
         chrome.storage.local.get("output", function(data) {
           resultsText.innerHTML = "";
           console.log(data.output)
