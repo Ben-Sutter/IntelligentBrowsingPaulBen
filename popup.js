@@ -9,6 +9,15 @@
 //   // window.close();
 // });
 
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
 const searchButton = document.getElementById("searchButton");
 const searchText = document.getElementById("searchInput");
 const resultsText = document.getElementById("results");
@@ -21,6 +30,7 @@ document.getElementById("searchButton").addEventListener("click", async () => {
         console.log("clicked");
         chrome.tabs.sendMessage(tabs[0].id, {action: "FIND_TEXT", find: searchText.value, results: resultsText.value});
         // window.close();
+        sleep(10000);
         chrome.storage.local.get("output", function(data) {
           resultsText.innerHTML = "";
           console.log(data.output)
