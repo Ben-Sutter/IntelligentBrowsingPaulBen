@@ -69,6 +69,9 @@ function helper(syns) {
     }
   }
   outputText = "";
+  outputText = outputText.concat("<p>");
+  outputText = outputText.concat(outputArray.length);
+  outputText = outputText.concat(" results</p>");
   for(elem of outputArray){
       outputText = outputText.concat("<li>");
       outputText = outputText.concat(elem);
