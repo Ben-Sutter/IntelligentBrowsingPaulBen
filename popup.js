@@ -9,6 +9,7 @@
 //   // window.close();
 // });
 
+//Credit for sleep(): https://stackoverflow.com/questions/16873323/javascript-sleep-wait-before-continuing
 function sleep(milliseconds) {
   var start = new Date().getTime();
   for (var i = 0; i < 1e7; i++) {
